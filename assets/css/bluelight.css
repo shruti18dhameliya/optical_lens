@@ -1,0 +1,178 @@
+body{
+    margin: 0 auto;
+}
+img{
+    display: block;
+    width: 100%;
+}
+.container2 {
+        display: flex;
+        padding: 40px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .left {
+        max-width: 45%;
+    }
+    .left h1 {
+        font-size: 32px;
+        font-weight: bold;
+        color: #000;
+        margin-bottom: 15px;
+    }
+    .left p {
+        color: #555;
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 20px;
+    }
+    .shop-btn {
+        display: inline-block;
+        padding: 12px 25px;
+        background-color: #fd8a0f;
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        /* border-radius: 5px; */
+    }
+    .shop-btn:hover{
+        background-color: grey;
+    }
+   
+    .right {
+        display: flex;
+        gap: 3px;
+    }
+   
+    .card {
+        background: #fff;
+        /* border-radius: 15px; */
+        padding: 20px;
+        width: 300px;
+        text-align: center;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .card img {
+        max-width: 100%;
+        border-radius: 10px;
+        margin-bottom: 15px;
+    }
+    .card h3 {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    .learn-more {
+        display: inline-block;
+        margin-top: 10px;
+        font-size: 14px;
+        color: #007bff;
+        text-decoration: none;
+    }
+
+ 
+/* <!-- =======================    glasees shop now     ============================== -->    */
+           /* title */
+
+.glasses-shop{
+    /* background-color: #f5f5f5; */
+    margin-bottom: 30px;
+}           
+    .eyeswere-title{
+        text-align: center;
+    display: block;
+  /* padding-top: 3%; */
+  margin-bottom: 50px;
+  text-align: center;
+  box-sizing: border-box;
+
+}
+.eyewere-text{
+      text-align: center;
+
+      font-weight: 700;
+  display: block;
+  font-size: 35px;
+  line-height: 1.4;
+  position: relative;
+  text-transform: capitalize;
+  padding-bottom: 11px;
+  color: #323232;
+  font-family: 'Poppins', sans-serif;
+}
+.eyeswere-title p{
+    font-size: 15px !important;
+}
+
+.color-options {
+        display: flex;
+        justify-content: center;
+        gap: 6px;
+        margin-top: 8px;
+}
+.color-dot {
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        border: 1px solid #ccc;
+        cursor: pointer;
+}
+.product-name {
+        margin-top: 6px;
+        font-weight: bold;
+}
+.price {
+        margin-top: 4px;
+        font-size: 14px;
+}
+
+    
+ /* <!-- ======== intoduction ====== -->*/
+
+.benefits-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 40px;
+}
+
+.benefit-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    text-align: left;
+    transition: transform 0.2s ease;
+}
+
+.benefit-card:hover {
+    transform: translateY(-5px);
+}
+
+.benefit-card .icon {
+    width: 60px;
+    height: 60px;
+    background: #f7f7f7;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.benefit-card .icon img {
+    width: 30px;
+    height: 30px;
+}
+
+.eye-strians h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    /* font-weight: bold; */
+}
+
+.eye-strians p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.5;
+}
