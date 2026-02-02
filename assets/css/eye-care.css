@@ -1,0 +1,219 @@
+body{
+    margin: 0 auto;
+}
+img{
+    display: block;
+    width: 100%;
+}
+
+.tryon-section {
+    padding: 20px;
+    margin-bottom: 3%;
+}
+
+.tryon-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.tryon-image {
+    flex: 1 1 50%;
+    min-width: 300px;
+}
+
+.tryon-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.tryon-content {
+    flex: 1 1 50%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tryon-content h2 {
+    font-size: 26px;
+    color: #222;
+    margin-bottom: 15px;
+}
+
+.tryon-content p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+ .tryon-btn {
+    position: absolute;
+    top: 45%;
+    right: 39%;
+    background-color: orange;
+    color: #fff;
+    padding: 12px 17px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: background 0.3s;
+    display: inline-block;
+}
+
+.tryon-btn:hover {
+    background-color: #004d73;
+} 
+
+
+/* <!-- ===================================== lens care============================== --> */
+.eyescare-title{
+ text-align: center;
+    display: block;
+  /* padding-top: 3%; */
+  margin-bottom: 50px;
+  text-align: center;
+  box-sizing: border-box;
+
+}
+.eyecare-text{
+      text-align: center;
+
+      font-weight: 700;
+  display: block;
+  font-size: 35px;
+  line-height: 1.4;
+  position: relative;
+  text-transform: capitalize;
+  padding-bottom: 11px;
+  color: #323232;
+  font-family: 'Poppins', sans-serif;
+}
+.eyecare-text::before{
+    content: "";
+  right: 0;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 200px;
+  margin: 0 auto;
+  position: absolute;
+  background: #fd8a0f;
+    background-color: rgb(253, 138, 15);
+    transform: translate(20px, 0);
+}
+
+.eyecare-text::after{
+    content: "";
+  left: 0;
+  right: 0;
+  bottom: 4px;
+  height: 2px;
+  width: 200px;
+  margin: 0 auto;
+  position: absolute;
+  background: #fd8a0f;
+    background-color: rgb(253, 138, 15);
+  transform: translate(-20px, 0);
+  border: none;
+}
+.eyescare-shop{
+    margin-bottom: 5%;
+}
+.eyescare-shop .row{  
+     gap: 10px;
+}
+.eyescare-name{
+    font-size: 15px;
+    margin-top: 6px;
+    font-weight: bold;
+}
+.price-eyes {
+    font-family: "Dancing Script", cursive;
+    margin-top: 4px;
+    font-size: 14px;
+}
+
+/* ============================================================= */
+
+
+
+.container {
+        display: flex;
+        max-width: 1200px;
+    }
+    /* Sidebar */
+    .sidebar-left {
+        width: 220px;
+        background: #fafafa;
+        padding: 15px;
+        border-right: 1px solid #ddd;
+    }
+    /* .sidebar-left h3 {
+        margin-bottom: 10px;
+    } */
+    .filter-group-left {
+        margin-bottom: 20px;
+        width: 220px;
+      
+    }
+    .filter-group-left label {
+         /* transform: scale(1.2); */
+        display: block;
+        margin: 10px 0;
+    }
+
+    /* =====================Main Content================================= */
+    .main {
+        flex: 1;
+        padding: 20px;
+    }
+   
+    /* ========================================================== products list 1, 2 ======= */
+
+    .products-eye {
+        display: flex;
+        margin-bottom: 4%;
+        gap: 30px;
+    }
+    .product-eyes {
+        border: 1px solid #ddd;
+        padding: 10px;
+        text-align: center;
+        border-radius: 5px;
+        background: #fff;
+    }
+    .product-eyes img {
+        width: 300px !important; 
+        max-width: 100%;
+        height: auto;
+    }
+    .product-name-eyes {
+        margin: 10px 0 5px;
+  
+    }
+    .price {
+        color: #2c3e50;
+        font-size: 16px;
+    }
+    .discount {
+        color: #e74c3c;
+        font-size: 14px;
+        margin-left: 5px;
+       
+    }
+    .tag {
+        background: #e74c3c;
+        color: #fff;
+        padding: 2px 6px;
+        font-size: 12px;
+        border-radius: 3px;
+        position: absolute;
+        margin-top: -10px;
+        margin-left: -10px;
+    }
+
